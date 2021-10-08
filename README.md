@@ -25,4 +25,6 @@ See [README.md](./300/README.md)
 
 ## 400 - Using Anima
 
+[Anima 4.0](https://www.animaapp.com/) lets you cherry-pick elements straight from a design and get fully written React components that just work.
+
 See [README.md](./400/README.md)
