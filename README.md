@@ -15,7 +15,7 @@ One reason the process of moving from design to code is a core professional skil
 
 See [README.md](./100/README.md)
 
-## 200 - The Advantages of having a Process
+## 200 - The Advantages of Having a Process
 
 See [README.md](./200/README.md)
 
