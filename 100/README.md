@@ -4,14 +4,18 @@ As a way to talk about this, let’s use an example design for a “marketing-st
 
 This gets at another reason that this can be missed in education: often in our own solo projects, we can have static content right there in the HTML, and component parts aren’t going to be Frankenstein-ed together by strangers to form whole new pages and sections. But once you step into more real-world dev situations, things are a lot more dynamic, and we are often working at the layer of “make things that a non-developer can use to make a web page.”
 
-Let’s use this website for a clinical trial is example. As we can see there are a lot of familiar design elements. Marketing sites tend to share common patterns:
+Let’s use this website for a clinical trial is example. 
+
+
+
+As we can see there are a lot of familiar design elements. Marketing sites tend to share common patterns:
 
 - a big hero section
 - product images
 - small separate sections of short-form content emphasizing one thing or another
 - information about the company
 - etc.
-- 
+
 On mobile, we can take it as a given that in each section, the left columns will stack on top of the right, and some other fairly typical reflow will happen. Nothing structural will change on mobile. So what we are looking at is the core of the design.
 
 In this example, there is a header, then a lot of distinct sections, and a footer. At a glance, some of the sections look kind of similar—several have a two-column layout, for example. There are button and heading styles that seem to be consistent throughout. As soon as you take a look at something like this, your eye will start to notice repeated patterns like that.
