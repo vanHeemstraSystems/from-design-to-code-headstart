@@ -1,0 +1,3 @@
+# 100 - You do a little extra discovery
+
+As much as we’d like every project to arrive fully formed and perfectly ready to start, in reality, designs often contain assumptions that might be impractical to implement, or contradict something else we care about, like accessibility. In that case, you can assess the whole thing up front and get the conversations started with people who can resolve those issues early in the process. This can happen while you dive into the pieces that are ready to code, and will stop you from bumping into these roadblocks later when you are about to build that part of it. Flagging concerns early is definitely appreciated by the people who need to solve them.
