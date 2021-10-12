@@ -28,3 +28,13 @@ Along the top you have three options:
 
 Choose "Code" from the options along the top of the omniview at https://projects.animaapp.com/team/not-applicable-3byvvd3/project/NjJXCwW/screen/desktop1280dashboard/omniview?mode=play
 
+When you click with your mouse pointer on one of the elements on the view, it opens up two panels beneath; one for HTML and the other for CSS.
+
+You can also use the drop-down menu "HTML" to switch to "React" or "Vue".
+
+
+## 300 - Upload your own design to Anima
+
+Based on video "Getting started with Anima - How to upload your design" at https://www.youtube.com/watch?v=LqkDU6_NnSE&list=PLvftPKgDrSwbjUppYOQqVflEmPYHFf6kV&index=2
+
+
