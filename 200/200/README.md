@@ -1,0 +1,5 @@
+# 200 - You can be helped by others
+
+Without a plan, it can be difficult to understand how far along you are in completing the project, as well as knowing if you need help meeting a deadline. Even if you do need help and are able to ask for it, it’s tough to use extra helping hands effectively without the work being broken out in to separate little chunks that be easily divided. When you have a plan that makes sense, you can quickly delegate certain tickets, knowing that the jigsaw pieces will fit together in the end.
+
+It’s easy (and common) for a new developer to think that huge workloads and working around the clock is a good thing. But as you mature in the role, you’ll see that having a deep understanding of the whole picture of a project, or even a single ticket, is more valuable, while creating a better impression that you are “on top of things.” Recognizing early that a timeline doesn’t look right gives you options about how to address it in ways other than trying to be a hero and throwing some weekends at it.
