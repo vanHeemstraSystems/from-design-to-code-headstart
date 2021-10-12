@@ -21,78 +21,91 @@ So, in this fourth pass, here are notes we might make:
 
 Not so bad for the first top-to-bottom pass. Let’s go a level deeper. We’re still unconcerned with the child inside elements of the sections themselves yet—we want just enough info to label the top level items inside each sections.
 
-Within Header there is:
-Home link
-Navigation section
-Within Main Content there is:
-Hero section
-Short explainer about the disease itself
-Explainer about the treatment
-Intro to the trial
-Explainer with more details about the trial
-Statement about who can join the study
-Call-to-action to participate
-Short explainer about the company
-Within Footer there is:
-Logo
-Summary Sentence
-Some lists of links with titles
-Divider
-Copyright notice
+- Within ***Header*** there is:
+- -- Home link
+- -- Navigation section
+
+- Within ***Main Content*** there is:
+- -- Hero section
+- --Short explainer about the disease itself
+- --Explainer about the treatment
+- --Intro to the trial
+- --Explainer with more details about the trial
+- --Statement about who can join the study
+- --Call-to-action to participate
+- --Short explainer about the company
+
+- Within ***Footer*** there is:
+- --Logo
+- --Summary Sentence
+- --Some lists of links with titles
+- --Divider
+- --Copyright notice
+- 
 This pass reveals a few things. First, the Header and Footer sections are pretty shallow and are already revealing raw elements like links and text. Second, the Main section has eight distinct subsections, each with its own topic.
 
 We’re going to do one more pass here and get at some of the deeper details in those sections.
 
-Header home link—Woohoo, it’s just a link and we’re done.
-Header nav—This is an expanding hover nav that needs JavaScript to work correctly. There are probably lots of accessible examples to follow, but still will take more time to develop and test than if we were working with raw links.
-Hero
-Title
-Column 1
-Subtitle (we missed this in the first element-level pass)
-Paragraph
-Primary button link
-Secondary button link
-Column 2
-Hero image
-Disease Explainer
-Title
-Paragraph
-Unordered list
-Large text
-Unordered list
-Image and caption (figure and figcaption)
-List of links
-Treatment Explainer
-Title
-Column 1
-Paragraphs
-Column 2
-Image and caption (figure and figcaption)
-Trial—Intro
-Title
-Column 1
-YouTube Video Player
-Column 2
-Paragraphs
-Trial—More Details
-Title
-Subtitle
-Cards (with Icon, Title, and List)
-“Who Can Join” statement
-Title
-Column 1
-Paragraph
-Unordered list
-Column 2
-Paragraph
-Unordered list
-Call-to-Action
-Title
-Paragraph
-Secondary button link
-About the Company
-Title
-Paragraph
+- ***Header home link*** — Woohoo, it’s just a link and we’re done.
+
+- ***Header nav*** — This is an expanding hover nav that needs JavaScript to work correctly. There are probably lots of accessible examples to follow, but still will take more time to develop and test than if we were working with raw links.
+
+- ***Hero***
+- -- Title
+- -- Column 1
+- -- -- Subtitle (we missed this in the first element-level pass)
+- -- -- Paragraph
+- -- -- Primary button link
+- -- -- Secondary button link
+- -- Column 2
+- -- -- Hero image
+
+- ***Disease Explainer***
+- -- Title
+- -- Paragraph
+- -- Unordered list
+- -- Large text
+- -- Unordered list
+- -- Image and caption (figure and figcaption)
+- -- List of links
+
+- ***Treatment Explainer***
+- -- Title
+- -- Column 1
+- -- -- Paragraphs
+- -- Column 2
+- -- -- Image and caption (figure and figcaption)
+
+- ***Trial—Intro***
+- -- Title
+- -- Column 1
+- -- -- YouTube Video Player
+- -- Column 2
+- -- -- Paragraphs
+
+- ***Trial—More Details***
+- -- Title
+- -- Subtitle
+- -- Cards (with Icon, Title, and List)
+
+- ***“Who Can Join” statement***
+- -- Title
+- -- Column 1
+- -- -- Paragraph
+- -- -- Unordered list
+- -- Column 2
+- -- -- Paragraph
+- -- -- Unordered list
+
+- ***Call-to-Action***
+- -- Title
+- -- Paragraph
+- -- Secondary button link
+
+- ***About the Company***
+- -- Title
+- -- Paragraph
+
 Yowza, that got long fast! But now we understand pretty well the kinds of things we need to build, and what parts might be tricky. We also see that there may be some helper components to be built that aren’t quite represented by any one of these sections, for example, a two-column layout component that stacks to one column on mobile and has a title on top, or a generic “section container” component that takes a background and foreground color and provides the right styles plus standardized internal padding.
 
 Incidentally, with this breakdown we’ve done a pretty good job expressing the final accessibility tree we want our HTML to create, so we are well on our way to having the implementation be a smooth experience without a lot of re-work to get accessibility right.
