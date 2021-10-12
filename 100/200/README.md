@@ -1,6 +1,6 @@
 # Pass 2: Element-level ideas
 
-
+![example_web_site_design_pass_002](https://user-images.githubusercontent.com/12828104/136926122-3effbae6-c948-439b-82dc-8f7d30108fe6.png)
 
 Here are things we might notice in this second pass:
 
