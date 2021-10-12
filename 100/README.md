@@ -6,7 +6,7 @@ This gets at another reason that this can be missed in education: often in our o
 
 Let’s use this website for a clinical trial is example. 
 
-
+![example_web_site_design_0001](https://user-images.githubusercontent.com/12828104/136924161-0a849bfa-f7ea-4441-9dba-5ac92e90bed5.png)
 
 As we can see there are a lot of familiar design elements. Marketing sites tend to share common patterns:
 
