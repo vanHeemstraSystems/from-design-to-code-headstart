@@ -10,9 +10,7 @@ Here’s a quick example of the accessibility tree in Chrome if everything on th
 
 Three screenshots of an accessibility tree. One is made up only of generic containers, the text beside it reads. “Div soup - ignores the nature of the content.” The next is all generic but has a main parent element and one article element with a title, “What is Cyclic Vomiting Syndrome (CVS)?” The text beside it says the article is the odd one out and that we will look closer. The final image is the article element expanded in the accessibility tree, showing that it contains headings, paragraphs, and other semantically appropriate HTML elements. The text beside that one reads “Semantic markup! Stuff knows what it is!”
 
-
-IMAGE HERE
-
+![example_web_site_design_pass_004](https://user-images.githubusercontent.com/12828104/136927744-5912ca8d-7de0-40b1-b269-6aedf292546b.png)
 
 So, in this fourth pass, here are notes we might make:
 
